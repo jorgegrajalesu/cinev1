@@ -157,8 +157,32 @@ nav ul li ul li a:hover{
 }
 
 
-
 nav > ul > li:first-child > a{
     background-color:#3b0505;
 }
+
+.title{
+    text-align: center;
+    margin-top: 250px;
+    font-family: var(--fuente);
+    font-size: 3.5rem;
+    color: #000000;
+}
+
+/* slider */
+
+.container__slider{
+    max-width: 800px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+}
+
+input[type=radio]{
+    display: none;
+}
+
 
