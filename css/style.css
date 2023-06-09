@@ -225,7 +225,9 @@ img{
 #selector-1,
 #item-3:checked ~ .cards
 #selector-2{
-    
+    transform: translateX(-40%) scale(0.8);
+    opacity: 0.6;
+    z-index: 0;
 }
 
 
