@@ -230,7 +230,27 @@ img{
     z-index: 0;
 }
 
+/* translate positivo */
+#item-3:checked ~ .cards
+#selector-1,
+#item-1:checked ~ .cards
+#selector-2,
+#item-2:checked ~ .cards
+#selector-3{
+    transform: translateX(40%) scale(0.8);
+    opacity: 0.6;
+    z-index: 0;
+}
 
+#item-1:checked ~ .cards
+#selector-1,
+#item-2:checked ~ .cards
+#selector-2,
+#item-3:checked ~ .cards
+#selector-3{
+    transform: translateX(40) scale(1);
+    z-index: 1;
+}
 
 
 
