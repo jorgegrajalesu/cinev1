@@ -219,6 +219,8 @@ img{
     object-fit: cover;
 }
 
+
+
 #item-1:checked ~ .cards
 #selector-3,
 #item-2:checked ~ .cards
