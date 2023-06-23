@@ -387,6 +387,37 @@ img{
     margin-bottom: 10px;
 }
 
+.hero__wrap{
+    position: relative;
+}
+
+.hero_main > figure{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+
+}
+
+.row-bg-wrap{
+    position: absolute;
+    width: 100vw;
+    height: 50%;
+    left: 50%;
+    bottom: -1px;
+    margin-left: -50vw;
+    z-index: -1000;
+
+}
+
+.shape-divider{
+    background: #0c4195;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    position: absolute;
+
+}
+
 
 
 
