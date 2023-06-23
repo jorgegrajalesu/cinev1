@@ -300,6 +300,21 @@ img{
 
 }
 
+.frontpage__links-wrapper{
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.frontpage__links-title{
+    font-family: var(--fuente);
+    font-size: 1.2rem;
+    line-height: 26px;
+    font-weight: 600;
+    
+}
+
+
 
 
 
