@@ -331,6 +331,62 @@ img{
     text-align: center;
 }
 
+.links-title{
+    font-size: 32px;
+    line-height:40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.frontpage__links-item{
+    text-decoration: none;
+}
+
+.frontpage__links-item:hover{
+    opacity: 0.8;
+}
+
+.frontpage__links-icon{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    color: #271d1d;
+    font-size: 50px;
+    font-family: var(--fuente);
+    line-height: 100px;
+}
+
+.frontpage__links-title,
+.frontpage__links-description{
+    display: block;
+    text-align: center;
+}
+
+.frontpage__links-description{
+    font-size: 14px;
+    color: #2c2c2c;
+}
+
+.links__main{
+    padding: 0 5%;
+}
+
+/* estilos a las listas */
+.list__style{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list__style li{
+    color: #457dc6;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: inherit;
+    margin-bottom: 10px;
+}
+
 
 
 
