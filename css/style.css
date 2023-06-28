@@ -435,6 +435,41 @@ img{
 
 }
 
+.hero__container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.frontpage__hero{
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.frontpage__bg-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.frontpage__bg-layer{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: '';
+    background: linear-gradient(135deg,#699bdc 0%,#3f6794 100%);
+}
 
 
 
