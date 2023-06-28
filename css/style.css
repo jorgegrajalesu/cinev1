@@ -4,7 +4,7 @@
 :root{
     --colorHeader:#000000;
     --fuente:'Roboto', sans-serif;
-    --colorFooter:#3b0505;
+    --colorFooter:#02032c;
 }
 
 
@@ -569,6 +569,79 @@ img{
     width: 100%;
     height: 300px;
     border-radius: 5px;
+
+}
+
+.icon{
+    display: inline-block;
+}
+
+/* footer */
+#page-footer{
+    background:var(--colorFooter);
+    color: #fff;
+}
+
+#page-footer a{
+    color: #fff;
+}
+
+#page-footer .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    padding: 40px 0;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.footer__cta-container{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+    flex-wrap: nowrap;
+    padding: 70px 0;
+}
+
+.footer__cta-container:after{
+    position: absolute;
+    max-width: 1230px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    background-color: #fff;
+
+}
+
+.footer__cta-container .cta__text{
+    margin: 0;
+    color: #fff;
+    font-family: var(--fuente);
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+.footer__cta-container .cta__button{
+    color: #fff;
+    display: inline-block;
+    margin-top: 30px;
+    border: 2px solid #fff;
+    border-radius: 500px;
+    padding: 25px 60px;
+    font-weight: 700;
+    background-size: 100% 100%;
+    transition: all .4s ease-in-out;
+
+}
+
+.footer__cta-container .cta__button:hover{
     
 }
 
