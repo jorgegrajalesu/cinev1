@@ -673,6 +673,48 @@ img{
 .footer__menu figure{
     margin: 0 auto;
     width: 80%;
+    padding: 0;
     
+}
+
+.ft-link{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer__link:nth-child(1){
+    border-left: 3px solid #e0b20c;
+}
+.footer__link:nth-child(2){
+    border-left: 3px solid #ea250b;
+}
+.footer__link:nth-child(3){
+    border-left: 3px solid #34db06;
+}
+.footer__link:nth-child(4){
+    border-left: 3px solid #354c89;
+}
+.footer__link:nth-child(5){
+    border-left: 3px solid #5c2468;
+}
+
+.footer__link a{
+    text-decoration: none;
+}
+
+.footer__title{
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.footer__info{
+    font-size: 1.2rem;
+    line-height: 30px;
+    color: #fff;
+    letter-spacing: 1px;
+
 }
 
