@@ -739,3 +739,14 @@ img{
 
 }
 
+.movies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 100%;
+    padding-bottom: 70px;
+}
+
