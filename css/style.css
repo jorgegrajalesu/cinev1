@@ -761,5 +761,10 @@ img{
     width: 25%;
     border-radius: 10px;
     box-shadow: 0 5px 20px rgba(203, 203, 203, 0.585);
+    transition: .3s;
 }
 
+.movie__internacional:hover{
+    box-shadow: 0 5px 10px rgba(32, 32, 32, 0.2);
+    transform: translateY(-15px);
+}
