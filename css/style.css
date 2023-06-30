@@ -718,3 +718,13 @@ img{
 
 }
 
+/* movies internacionales */
+#internacional{
+    display: grid;
+    background-color: #0c4195;
+    width: 100vw;
+    min-height: 100vh;
+    place-content: center;
+    
+}
+
