@@ -727,6 +727,15 @@ img{
     place-content: center;
     margin-top: 100px;
     padding: 0;
-    margin: 0;
+    /* margin: 0; */
+}
+
+.movies__main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100vw;
+    background-color: #fff;
+
 }
 
