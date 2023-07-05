@@ -824,7 +824,22 @@ img{
 
 /* resposive */
 @media screen and (max-width: 650px) {
+    /* encabezado */
     header{
-        
+        position: absolute;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
+
+    .container-menu .header-superior{
+        width: 100%;
+        display: block;
+    }
+
+
 }
+
+
