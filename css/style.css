@@ -875,6 +875,15 @@ img{
         margin-bottom: 20px;
     }
 
+    .hero__description{
+        display: block;
+        margin-top: 20px;
+    }
+
+    .hero__wrapper{
+        
+    }
+
 
 
 
