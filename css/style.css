@@ -851,6 +851,21 @@ img{
         padding-top: 20px;
     }
 
+    .container-menu ul li{
+        position: static;
+        width: 100%;
+    }
+
+    .container-menu ul li a{
+        display: block;
+        width: auto;
+        float: none;
+        color: #fff;
+
+    }
+
+
+
 
 }
 
