@@ -849,6 +849,7 @@ img{
         background-color: #000 !important;
         z-index: 3;
         padding-top: 20px;
+        height: auto;
     }
 
     .container-menu ul li{
