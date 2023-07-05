@@ -372,6 +372,12 @@ img{
     padding: 0 5%;
 }
 
+.hero_main > figure {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
 /* estilos a las listas */
 .list__style{
     list-style: none;
@@ -768,3 +774,11 @@ img{
     box-shadow: 0 5px 10px rgba(32, 32, 32, 0.2);
     transform: translateY(-15px);
 }
+
+.nameMovie{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
