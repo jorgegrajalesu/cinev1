@@ -787,3 +787,8 @@ img{
     margin-top: 70px;
     margin: 0 auto;
 }
+
+.nameMovie span{
+    font-size: 1.3rem;
+
+}
