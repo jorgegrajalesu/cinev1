@@ -846,7 +846,7 @@ img{
         right: 0;
         left: 0;
         display: block;
-        background-color: #000;
+        background-color: #000 !important;
         z-index: 3;
         padding-top: 20px;
     }
@@ -862,6 +862,16 @@ img{
         float: none;
         color: #fff;
 
+    }
+
+    .logo{
+        margin: 0 auto;
+    }
+
+    .container__slider{
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 20px;
     }
 
 
