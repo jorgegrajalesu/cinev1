@@ -821,3 +821,10 @@ img{
 .bay .button:hover{
     transform: scale(1.1);
 }
+
+/* resposive */
+@media screen and (max-width: 650px) {
+    header{
+        
+    }
+}
