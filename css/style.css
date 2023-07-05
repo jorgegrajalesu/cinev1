@@ -847,7 +847,8 @@ img{
         left: 0;
         display: block;
         background-color: #000;
-        
+        z-index: 3;
+        padding-top: 20px;
     }
 
 
