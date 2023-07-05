@@ -802,6 +802,9 @@ img{
 }
 
 .bay{
-    
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    left: 90px;
 }
 
