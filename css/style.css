@@ -1134,8 +1134,17 @@ img{
     }
 
     .col__50 {
-        
+        max-width: 50%;
     }
+
+    .footer__cta-container{
+        max-width: 1200px;
+        margin: 0 auto;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    
 
 
 }
