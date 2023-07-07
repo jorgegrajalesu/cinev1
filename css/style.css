@@ -1125,6 +1125,18 @@ img{
         padding: 120px 0;
     }
 
+    .row{
+        flex-direction: row;
+        align-content: space-around;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .col__50 {
+        
+    }
+
 
 }
 
