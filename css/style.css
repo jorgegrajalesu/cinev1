@@ -955,10 +955,18 @@ img{
         
     }
 
-    .container-menu .header-superior{
+    .container-menu {
         width: 100%;
         display: block;
     }
+
+    .header-superior{
+        display: flex;
+    }
+
+    
+
+
 
     .container-menu nav ul{
         width: 100%;
