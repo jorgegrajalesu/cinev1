@@ -1113,6 +1113,18 @@ img{
 
     }
 
+    .frontpage__cta-action{
+        border-color: rgba(255, 255, 255,0.7);
+        color: #fff;
+        border: 2px solid;
+    }
+
+    .section__container{
+        margin: 0 auto;
+        max-width: 1200px;
+        padding: 120px 0;
+    }
+
 
 }
 
