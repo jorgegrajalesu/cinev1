@@ -1106,6 +1106,11 @@ img{
         color: #fff;
         border-radius: 20px;
         box-shadow: 0 60px 135px rgba(0, 0, 0, 0.343), 0 15px 65px rgba(0,0,0,0.1);
+        margin-top: 15px;
+        opacity: 1;
+        transform: rotateX(0deg) translate(0px, 0px);
+        
+
     }
 
 
