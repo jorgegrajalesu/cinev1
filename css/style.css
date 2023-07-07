@@ -969,10 +969,6 @@ img{
         padding-top: 50px;
     }
 
-
-
-
-
     .container-menu nav ul{
         width: 100%;
         position: absolute;
@@ -1030,9 +1026,13 @@ img{
     }
 
     .frontpage__links{
-        display: block !important;
+        display: flex;
+        flex-flow:row nowrap;
         width: 100%;
         margin: 0 auto;
+        max-width: 700px;
+        align-items: flex-start;
+        text-align: center;
     }
 
     .frontpage__links-icon{
