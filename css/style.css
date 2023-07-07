@@ -1089,7 +1089,12 @@ img{
        
         max-width: 1090px;
        
-    }    
+    }
+    
+    .links-title{
+        font-size: 50px;
+        line-height: 60px;
+    }
 
 
 }
