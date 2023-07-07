@@ -941,21 +941,18 @@ img{
         padding-top: 5px;
     }
 
-
-
-
 }
 
 /* responsive min 700px */
 @media screen and (min-width: 700px) {
     /* encabezado */
     header{
-        position: absolute;
+        
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        margin: 0 auto;
+        
     }
 
     .container-menu .header-superior{
