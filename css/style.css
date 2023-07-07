@@ -965,36 +965,10 @@ img{
     }
 
     .title{
-        margin-top: 420px;
+        margin-top: 100px;
         padding-top: 50px;
     }
-
-    .container-menu nav ul{
-        width: 100%;
-        position: absolute;
-        top: 100%;
-        right: 0;
-        left: 0;
-        display: block;
-        background-color: #000 !important;
-        z-index: 3;
-        padding-top: 20px;
-        height: auto;
-    }
-
-    .container-menu ul li{
-        position: static;
-        width: 100%;
-    }
-
-    .container-menu ul li a{
-        display: block;
-        width: auto;
-        float: none;
-        color: #fff;
-
-    }
-
+    
     .logo{
         margin: 0;
     }
