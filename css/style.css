@@ -920,8 +920,12 @@ img{
     }
 
     .cta__main{
-        
+        margin: 0 auto;
+        max-width: 90%;
+        margin-top: 80px;
     }
+
+    
 
 
 
