@@ -946,4 +946,131 @@ img{
 
 }
 
+/* responsive min 700px */
+@media screen and (min-width: 700px) {
+    /* encabezado */
+    header{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-menu .header-superior{
+        width: 100%;
+        display: block;
+    }
+
+    .container-menu nav ul{
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        display: block;
+        background-color: #000 !important;
+        z-index: 3;
+        padding-top: 20px;
+        height: auto;
+    }
+
+    .container-menu ul li{
+        position: static;
+        width: 100%;
+    }
+
+    .container-menu ul li a{
+        display: block;
+        width: auto;
+        float: none;
+        color: #fff;
+
+    }
+
+    .logo{
+        margin: 0 auto;
+    }
+
+    .container__slider{
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+
+    .hero__description{
+        display: block;
+        margin-top: 20px;
+    }
+
+    .hero__wrapper{
+        padding-top: 5%;
+        margin-bottom: 1.5em;
+    }
+
+    .hero__title{
+        width: 50%;
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .hero__action{
+        padding: 20px 50px;
+    }
+
+    .frontpage__links{
+        display: block !important;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .frontpage__links-icon{
+        width: 70%;
+        height: 50%;
+    }
+
+    .frontpage__links-description{
+        width: 100%;
+        margin-left: 5px;
+        padding-left:15px;
+        color: #020202;
+        font-size: 1.1rem;
+    }
+
+    .links__main{
+        width: 100%;
+        padding: 0;
+    }
+
+    .cta__main{
+        margin: 0 auto;
+        max-width: 90%;
+        margin-top: 80px;
+    }
+
+    #internacional{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .movies, .movie__internacional{
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .bay{
+        padding-top: 5px;
+    }
+
+
+
+
+}
+
+
+
+
 
